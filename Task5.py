@@ -4,7 +4,6 @@ import requests
 
 app = Flask(__name__)
 
-# 🧁 Our cute HTML lives right here
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
@@ -139,7 +138,7 @@ def scrape():
 
         soup = BeautifulSoup(response.text, 'html.parser')
         paragraphs = soup.find_all('p')
-        content = '\n\n'.join([p.get_text() for p in paragraphs[:15]])  # Limit to first 15
+        content = '\n\n'.join([p.get_text() for p in paragraphs[:15]]) 
 
         return jsonify({'result': content})
     except Exception as e:
