@@ -9,7 +9,7 @@ HTML_TEMPLATE = """
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Scrape-o-Tron 3000 🌈</title>
+  <title> WEB SCRAPING 🌈 </title>
   <style>
     body {
       font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -80,8 +80,7 @@ HTML_TEMPLATE = """
   </style>
 </head>
 <body>
-  <h1>🧠 Scrape-o-Tron 3000</h1>
-  <img src="https://cdn.pixabay.com/photo/2021/06/23/06/51/cartoon-6359356_1280.png" alt="Cute Bot" />
+  <h1>🧠 WEB SCRAPING </h1>
   
   <form id="scrapeForm">
     <input type="text" name="url" placeholder="Paste your URL here!" required />
