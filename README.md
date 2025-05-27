@@ -26,3 +26,7 @@ Key Learning Outcomes
   Understood and applied web scraping principles using BeautifulSoup.
   Practiced solving common web access limitations like CORS.
   Focused on improving user experience through interactive design.
+
+Created by 
+  Rishika.G,
+  B.Sc Computer Science with Artificial Intelligence 
